@@ -23,8 +23,8 @@ const projects = [
         desc: 'You are right here buddy, no description needed :)'  ,
         descPlus1: 'The site is built to keep the history of my works in one place and sell myself as a diamond quality talent.',
         descPlus2: '...and to highlight my humbleness obviously.',
-        code: 'code2',
-        live: 'live2'
+        code: 'https://github.com/Othary/IT-Portfolio',
+        live: 'http://twopiece.work/'
     },
 ];
 
