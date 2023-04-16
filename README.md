@@ -43,6 +43,6 @@ and using Photoshop and Figma to create complete design
 • Midjourney
 
 
-### The Scope Of Responsobilities
+### The Scope Of Responsibilities
 
 Fully made by myself including design and photographies
