@@ -1,9 +1,6 @@
 import React from 'react';
 import myPhoto from '../assets/me.png';
 import onePiece from '../assets/onePiece.png';
-import {FaSnowboarding} from 'react-icons/fa';
-import {GiBlackBook} from 'react-icons/gi';
-import {BsGraphUpArrow} from 'react-icons/bs';
  
 const Home = () => {
   return (
@@ -15,14 +12,14 @@ const Home = () => {
         <div className='min-h-[55vh]  justify-center'>
 
           <div className='w-full  flex-1 pl-7 md:pr-10 pr-7 pt-7 md:pt-10 '>
-            <p className='text-[#404167] text-sm sm:text-lg mb-0 sm:mb-[1vh] '>Hi, my name is</p>
+            <p className='text-[#404167] dark:text-[#c0c0c2] text-sm sm:text-lg mb-0 sm:mb-[1vh] '>Hi, my name is</p>
             <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-1 sm:mb-[2vh] text-[#39838F]'>Sergey</h1>
             <h2 className='text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-5 sm:mb-[2vh] text-[#404167] dark:text-[#c0c0c2] clear-left'>I am an Auckland based <br/> Front-End Web Developer</h2>
             
             <p className='min-[400px]:w-[60%] sm:w-[55%]  lg:w-[55%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2] text-lg xl:text-xl mb-2 sm:mb-[2vh]  '>With expertise in creating dynamic and responsive websites using Javascript and React. </p> 
-            <p className='min-[540px]:w-[65%] md:w-[60%] lg:w-[55%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 sm:mb-[2vh] '> As a task-oriented professional <BsGraphUpArrow className='inline text-[#39838F]' size={18}/> , I possess exceptional planning, organizing and interpersonal skills.  <br/></p> 
-            <p className='min-[747px]:w-[70%] md:w-[65%] lg:w-[55%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 sm:mb-[2vh] '>Outside of my professional life, I am lifelong learner <GiBlackBook className='inline text-[#39838F]' size={18}/> with insatiable curiosity for all things new.</p> 
-            <p className='min-[942px]:w-[65%] lg:w-[60%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 '>I find great pleasure in music and partner Latina dancing, pursuing artistic photography, woodcarving, surf-, snow-, kite-boarding <FaSnowboarding className='inline text-[#39838F]' size={18}/> and trying new things.</p> 
+            <p className='min-[540px]:w-[65%] md:w-[60%] lg:w-[55%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 sm:mb-[2vh] '> As a task-oriented professional, I possess exceptional planning, organizing and interpersonal skills.  <br/></p> 
+            <p className='min-[747px]:w-[70%] md:w-[65%] lg:w-[55%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 sm:mb-[2vh] '>Outside of my professional life, I am lifelong learner with insatiable curiosity for all things new.</p> 
+            <p className='min-[942px]:w-[65%] lg:w-[60%] 2xl:w-[50%] text-[#404167] dark:text-[#c0c0c2]  text-lg xl:text-xl mb-2 '>I find great pleasure in music and partner Latina dancing, pursuing artistic photography, woodcarving, surf-, snow-, kite-boarding and trying new things.</p> 
             
           </div>
 
@@ -44,7 +41,7 @@ const Home = () => {
     <img className=' float-left bottom-0  object-contain h-full py-[5px] mr-2' src={onePiece} alt="next work example"/>
   </div>
   <div className=' text-white dark:text-[#c0c0c2] '>
-    <p className='text-[#D4CECE] dark:text-[#c0c0c2]  text-justify text-lg xl:text-xl pb-4 pt-2 sm:pt-4 md:pt-7 lg:pt-10 px-7 pr-12 '>From a former Structural Engineering with over ten years worldwide experience into a self-taught Web Developer.<br/>Starting from my adolescent temptations of hacking video games and creating bots for MMO games into automatization of all possible management processes in construction.<br/> 
+    <p className='text-[#D4CECE] dark:text-[#c0c0c2] text-lg xl:text-xl pb-4 pt-2 sm:pt-4 md:pt-7 lg:pt-10 pl-7 pr-7 md:pr-12  '>From a former Structural Engineering with over ten years worldwide experience into a self-taught Web Developer.<br/>Starting from my adolescent temptations of hacking video games and creating bots for MMO games into automatization of all possible management processes in construction.<br/> 
     I decided to use my knack for computer technologies and my passion to mess with code to pave my way into global net.<br/>  Also, with over five years of photography and Photoshop experience, I sharpened my eye for attention to details.</p>
   </div>
   <div className='absolute right-2 bottom-0 block w-[14vh] h-[14vh] border-[#D4CECE] rounded-2xl border-b-4 sm:border-b-[6px] border-r-4 sm:border-r-[6px]'></div>
