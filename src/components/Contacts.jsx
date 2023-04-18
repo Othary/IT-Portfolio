@@ -11,7 +11,7 @@ const Contacts = () => {
             <div className='relative max-w-[1200px] mx-auto  bg-[#404167] rounded-t-2xl flex justify-center items-center'>
                 <form method='POST' action="https://getform.io/f/857b9972-3ece-4abb-a0b5-5f6815204b04" className='flex flex-col w-[400px] md:w-[500px] px-4 mt-4 sm:mt-4 xl:mt-0'>
                     <div className=' pb-6 text-center'>
-                        <p className='text-gray-300 pt-5 text-sm sm:base lg:text-lg xl:text-xl'>If you have any questions submit the form below</p>
+                        <p className='text-[#c0c0c2] pt-5 text-lg xl:text-xl'>If you have any questions submit the form below</p>
                     </div>
                     <input className=' p-2 bg-[#f0eded] rounded-t-xl' type="text" name='name' placeholder='Name' required/>
                     <input className='my-4 p-2 bg-[#f0eded]' type="email" name='email' placeholder='Email' required />

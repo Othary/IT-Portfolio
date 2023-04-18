@@ -21,8 +21,7 @@ const projects = [
         img: ProjectImg2,
         title: 'IT Portfolio',
         desc: 'The archive of my projects'  ,
-        descPlus1: 'The site is built to keep the history of my works in one place, provide details of my contribution and sell myself as a diamond quality talent.',
-        descPlus2: '...and to highlight my humbleness obviously.',
+        descPlus1: 'The site is built to showcase my works in one place, provide details of my contribution and show technical skills I possess.',
         code: 'https://github.com/Othary/IT-Portfolio',
         live: 'http://twopiece.work/'
     },
@@ -41,7 +40,7 @@ const Portfolio = () => {
                 <h3 className='text-xl text-[#404167] dark:text-[#c0c0c2] mb-3'>{project.descPlus1}</h3>
                 <h3 className='text-xl text-[#404167] dark:text-[#c0c0c2] mb-4'>{project.descPlus2}</h3>
                 <h3 className='text-xl italic  text-[#404167] dark:text-[#c0c0c2] mb-[50px]'>For additional details see the code source.</h3>
-                <div className='absolute bottom-0 left-[50%] -translate-x-[50%] flex item-center gap-5 px-[20%] mt-1 '>
+                <div className='absolute bottom-0 left-[50%] -translate-x-[50%] flex item-center gap-5 px-[20%] mt-1  '>
                     <a className='w-[100px] text-white dark:text-black dark:hover:text-white base text-xl bg-[#404167] dark:bg-[#D4CECE]  hover:bg-[#39838F] px-4 pt-1 pb-1 my-3 mx-auto  rounded-full cursor-pointer transition duration-500 ease-in-out' href={project.code} target="_blank" rel="noreferrer">Code</a>
                     <a className='w-[100px] text-white dark:text-black dark:hover:text-white base text-xl bg-[#404167] dark:bg-[#D4CECE]  hover:bg-[#39838F] px-4 pt-1 pb-2 my-3 mx-auto  rounded-full cursor-pointer transition duration-500 ease-in-out' href={project.live} target="_blank" rel="noreferrer">Live</a>
                 </div>
